@@ -1,0 +1,180 @@
+
+@media only screen and (max-width: 800px) {
+	.left-sidebar{
+		display: none !important;
+	}
+
+	.right-content{
+		display: none !important;
+	}
+
+	.homeContent{
+        display: grid;
+        grid-template-columns:100%;
+        grid-template-rows: auto;
+	}
+
+	.center-content{
+		grid-column: 1 !important;
+		display: grid;
+		grid-template-rows: 200px auto;
+	}
+
+	.atweetitem{
+		grid-template-columns: 15% 85%;
+	}
+
+	.tweetitem-right span{
+		font-size:40px;
+	}
+
+	.tweetnav span{
+		font-size: 60px;
+	}
+
+	.tweetitem-left img{
+		height: 150px;
+		width: 150px;
+	}
+
+	.tweetitem-footer {
+		grid-template-columns: 200px 200px;
+	}
+
+	.tweetitem-footer i{
+		font-size:60px;
+    }
+    
+    .tweetitem-footer i{
+		font-size:50px;
+	}
+
+	.header{
+		display: none;
+    }
+    
+    .headerContainer{
+		width: 320%;
+		display: grid;
+        grid-template-rows: 150px;
+        
+		position: sticky;
+		top: 0;
+		z-index: 1;
+	}
+
+	.headerMobileHome{
+		display: flex;
+		color: #bababc;
+		padding: 20px;
+		align-items: center;
+		position: sticky;
+		background-color: #1f2833;
+		top: 0;
+		z-index: 1;
+		justify-content: space-around;
+	}
+
+	.headerMobileHome i{
+		font-size:80px;
+		color: #bababc;
+	}
+
+	.homeIcon i{
+		color: 45a29e;
+	}
+
+	.whatever i{
+		color: 45a29e;
+	}
+
+	.tweetitem-content img {
+		border-radius: 2%;
+		height: 560px;;
+		width: 900px;;
+		object-fit: cover; /* Do not scale the image */
+		object-position: center;
+    }
+
+    .comment_section {
+        display: none;
+        grid-template-rows: 70px auto;
+    }
+
+    .input-comment input {
+        width: 80%;
+        height: 60px;
+        border-radius: 5px;
+        border: 1px solid #bababc;
+        box-shadow: none;
+        padding: 0;
+        margin: 0;
+        background: #1f2833;
+        outline: none;
+        font-size: 25px;
+        padding-left: 10px;
+    }
+
+    .input-comment button {
+        height: 60px;
+        width: 10%;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        background-color: #45a29e;
+        border: 1px solid #bababc;
+        color: white;
+        font-weight: bold;
+        margin:0;
+        padding: 0;
+        font-size: 25px;
+    }
+
+    .comment-item-post {
+        color: #bababc;
+        font-size: 50px;
+    }
+
+	.homeWrapper{
+        margin-top: 85px;
+        width: 320%;
+        display: grid;
+        grid-template-columns: 100%;
+		grid-template-rows:auto;
+	}
+
+	.homeContent{
+        grid-row:1;
+        grid-column: 1;
+		background-color: #1f2833;
+		border-top: 10px #0b0c10 solid;
+	}
+    
+    .whats-happening{
+        grid-template-columns: 15% 75% 10%;
+    }
+
+    .whats-happening img{
+        width: 150px;
+        height: 150px;;
+    }
+
+    .whats-happening-box textarea::placeholder {
+        color: #45a29e;
+        font-family: Arial;
+        font-size: 40px;
+    }
+
+    .whats-happening-gallery i {
+        margin-top: 25px;
+        font-size: 60px;
+        color: #45a29e;
+    }
+
+    .tweetitem-title {
+        font-family: Helvetica, Arial;
+        font-size: 40px;
+        color: #fff;
+        margin-bottom: 7px;
+    }
+}

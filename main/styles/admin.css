@@ -1,0 +1,208 @@
+body{
+    margin: 0 auto;
+	font-family: "proxima-nova", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 100%;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    color: #bababc;
+    background-color: #0b0c10;
+}
+
+.container{
+	background-color: #0b0c10;
+    margin: 0 auto;
+	height: 100%; 
+	padding-top: 20px;
+    width: 100%;
+}
+
+a{
+	text-decoration: none;
+	color: #66fcf1;
+}
+
+
+.login-secondary{
+    position: sticky;
+	text-align: center;
+    left: 33%;
+}
+
+.login-main, .login-secondary{
+    margin: 0 auto;
+	border-radius: 4px;
+	width: 350px;
+	margin-top: 10px;
+	padding: 10px 5%;
+}
+
+
+#choosing-box{
+    width: 20%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #1f2833;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#choosing-options{
+    display: flex;
+    flex-direction: row;
+}
+
+#choosing-options button {
+    color: white;
+    background-color: #45a29e;
+    padding: 10px 10px;
+    margin: 5px;
+    height: 80%;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+#user-box{
+    margin-top: 5%;
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    padding-bottom: 0%;
+    background-color: #1f2833;
+	box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+	color: #bababc; 
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.header{
+    flex-grow: 1;
+}
+
+.table{
+    position: sticky;
+    flex-grow: 1;
+    border-bottom: 1px solid #45a29e;
+}
+
+.return{
+    flex-grow: 3;
+}
+
+.return button{
+    padding: 0;
+    background-color: #45a29e;
+    
+}
+
+#user-box thead{
+    background: #45a29e;
+    color: white;
+}
+
+#user-box th{
+    width: 30%;
+}
+
+#user-box button{
+    color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    height: 80%;
+    width: 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#editButton{
+    background-color: #448a85;
+}
+
+#deleteButton{
+    background-color: #751919;
+}
+
+#user-box input[type="text"]{
+    align-self: center;
+	width: 221px;
+	height: 32px;
+	border-radius: 20px;
+	border: 1px solid #e6ecf0;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+	background: #1f2833;
+    outline: none;
+    margin-left: 15px;
+	padding-left: 10px;
+	color: #bababc;
+}
+
+
+#user-box input:hover{
+	border: 1px solid #45a29e;
+}
+
+#user-box tbody{
+    background: #1f2833;
+    
+}
+
+#user-box td{
+    padding:5px 15px;
+}
+
+#butonat{
+    display: flex;
+    flex-direction: row;
+}
+
+#user-box input:focus{
+	border: 1px solid #45a29e;
+	color: #bababc;
+}
+
+#user-box input[type="submit"]{
+    height: 32px;
+	grid-column: 3;
+	border-radius: 20px;
+	width: 80%;
+	justify-self: right;
+	align-self: center;
+	box-shadow: none;
+	border: none;
+	outline: none;
+	background: #328dc7;
+	color: #ffffff;
+	font-family: Helvetica, Arial;
+	font-weight: bold;
+    
+}
+
+#user-box h3{
+    margin: 0;
+    padding: 0;
+    margin-left: 41%;
+    padding-bottom: 3%;
+    padding-top: 2%;
+    font-family: Georgia;
+    font-size: 30px;
+    color: white;
+}
+
+@media screen and (max-width: 1000px){
+    #container{
+        display: block;
+    }
+}
+
+
